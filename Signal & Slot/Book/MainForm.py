@@ -13,10 +13,10 @@ class MainForm(QWidget):
    def setupUi(self):
       self.resize(300, 100)
       self.move(300, 300)
-      self.setWindowTitle('Demo Signal dan Slot')
+      self.setWindowTitle('Contoh Signal dan Slot')
       
       self.lineEdit = QLineEdit()
-      self.lineEdit.setText("Demo signal dan slot")     
+      self.lineEdit.setText("Hapus tulisan ini dengan button")     
       
       self.button1 = QPushButton('Bersihkan')
       self.button2 = QPushButton('Tutup')
